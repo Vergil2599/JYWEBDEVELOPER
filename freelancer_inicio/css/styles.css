@@ -1,0 +1,37 @@
+:root {
+--blanco: #ffffff;
+--oscuro: #0f0e0e;
+--primario: #00dfd3;
+--seccundario: #0064a7ce;
+--gris: #757575;
+}
+
+html {
+    font-size:62.5%
+}
+
+.titulo{text-align: center ;
+    font-size: 3.8rem;
+    color: Var(--primario);
+    font-family: 'Krub', sans-serif;
+
+    }
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+
+}
+.titulo span{text-align: right;
+font-size: 2rem;
+}
+
+.contenedor{
+    width:120rems;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+.navegacion-principal {
+    background-color: var(--seccundario);
+}
